@@ -1,0 +1,22 @@
+name: meuapp
+description: Uma descrição do seu app.
+publish_to: 'none' # Defina como 'none' se não for publicar.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0" # Ajuste a versão do SDK conforme necessário.
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15  # Use a versão mais recente disponível
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
